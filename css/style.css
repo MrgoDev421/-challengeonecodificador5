@@ -22,13 +22,6 @@ body {
 }
 
 
-
-.girls {
-    height: 200px ;
-    width: 200px;
-}
-
-
 button {
    
     height: 30px;
@@ -143,8 +136,8 @@ button:active {
 
 
 .girls {
-    width: 250px;
-    height: 400px;
+    width: 150px;
+    height: 250px;
     margin: 0 auto;
 
 }
@@ -152,7 +145,7 @@ button:active {
 /* margins */
 
 #text {
-    height: 4em;
+    height: 2em;
     width: auto;
     margin: 200px 0px 0px 60px;
     padding: 0px 60px;
@@ -203,7 +196,7 @@ section > p {
 #resultado{
     color: white;
     font-size: 24px;
-    margin: 80px auto;
+    margin: 40px auto;
     padding: 20px auto;
     text-align: center;
     
@@ -224,16 +217,7 @@ section > p {
     padding: auto 8px;
 }
 
-@media only screen and (max-width: 970px) {
-    .col-sm-1{width: 80%;}
-    .col-sm-2{width: 85%;}
-    .card2{height: auto;}
-    .image{display:1none !important;}
-    .copiar{
-        position: relative;
-        width: 80%;
-    }
-  }
+
 
 
   .encrypt-button {
@@ -347,7 +331,7 @@ section > p {
     padding: 0;
     margin: 0;
     width: 100%;
-    height: auto;
+    height: 80px;
     bottom: 0;
     background-color: rgba(0,0,0, 0.1);
     border: 1px solid red ;
