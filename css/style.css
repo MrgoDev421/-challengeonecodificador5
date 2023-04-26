@@ -9,8 +9,6 @@
 body {
    background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,115,121,1) 41%, rgba(0,212,255,1) 59%);
-
-
     font-family: 'Inter' , sans-serif;
 }
 
@@ -26,7 +24,7 @@ body {
 
 
 .girls {
-    height: 200px ;
+    height: auto ;
     width: 200px;
 }
 
@@ -301,8 +299,12 @@ section > p {
   }
   
   .unencrypt-button:active {
-    transform: translateY(2px); /* animación al hacer clic */
-  }
+    transform: translateY(2px);
+    -webkit-transform: translateY(2px);
+    -moz-transform: translateY(2px);
+    -ms-transform: translateY(2px);
+    -o-transform: translateY(2px);
+}
 
  /* copy button*/
 
@@ -339,3 +341,26 @@ section > p {
     transform: translateY(2px); /* animación al hacer clic */
   }
 
+
+  footer{
+ 
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 120px;
+    bottom: 0;
+    background-color: rgba(0,0,0, 0.1);
+    border: 1px solid red ;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer > p, a {
+    font-style: 'Inter', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+  }
