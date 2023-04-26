@@ -10,7 +10,14 @@ body {
    background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,115,121,1) 41%, rgba(0,212,255,1) 59%);
     font-family: 'Inter' , sans-serif;
+
+   
 }
+
+.container {
+    height: 100vh;
+    overflow-y: auto;
+  }
 
 #text{
     font-size: 10px;
