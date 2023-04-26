@@ -24,7 +24,7 @@ body {
 
 
 .girls {
-    height: auto ;
+    height: 200px ;
     width: 200px;
 }
 
@@ -228,7 +228,12 @@ section > p {
     .col-sm-1{width: 80%;}
     .col-sm-2{width: 85%;}
     .card2{height: auto;}
-    
+    .image{display:1none !important;}
+    .copiar{
+        position: relative;
+        width: 80%;
+    }
+  }
 
 
   .encrypt-button {
@@ -342,7 +347,7 @@ section > p {
     padding: 0;
     margin: 0;
     width: 100%;
-    height: 120px;
+    height: auto;
     bottom: 0;
     background-color: rgba(0,0,0, 0.1);
     border: 1px solid red ;
@@ -359,5 +364,3 @@ section > p {
     font-size: 36px;
     font-weight: bold;
   }
-
-}
